@@ -1,0 +1,16 @@
+.gallery-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    background-color: antiquewhite;
+  }
+  h1{
+    font-family: emoji !important;
+    text-align: center !important;
+  }

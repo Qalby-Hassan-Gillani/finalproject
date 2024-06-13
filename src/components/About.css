@@ -1,0 +1,83 @@
+/* CSS for the About page */
+
+.about-page {
+    padding: 2rem;
+    background-color: #f9f9f9;
+  }
+  
+  .about-box {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-banner {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .about-banner h1 {
+    font-size: 2.5rem;
+    font-family: emoji;
+    color: #333;
+  }
+  
+  .about-banner p {
+    font-size: 1.1rem;
+    font-family: cursive;
+    color: #555;
+  }
+  
+  .about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .about-description {
+    flex: 1;
+  }
+  
+  .about-description h2 {
+    font-size: 2rem;
+    color: #333;
+    font-family: emoji;
+    margin-bottom: 1rem;
+  }
+  
+  .about-description p {
+    font-size: 1.1rem;
+    color: #555;
+    text-align: justify;
+    line-height: 1.6;
+  }
+  
+  .about-image img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .video-gallery {
+    margin-top: 3rem;
+  }
+  
+  .video-gallery h2 {
+    font-size: 2rem;
+    color: #333;
+    font-family: emoji;
+    margin-bottom: 1.5rem;
+  }
+  
+  .video-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 1rem;
+  }
+  
+  .video-container video {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }

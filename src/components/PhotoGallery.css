@@ -1,0 +1,122 @@
+/* PhotoGallery.css */
+
+.product-container {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    max-width: 300px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative; /* Ensure relative positioning for absolute elements inside */
+  }
+  
+  .product-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .product-details {
+    padding: 15px;
+  }
+  
+  .product-description {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+  }
+  
+  .product-price {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .order-now-button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .order-now-button:hover {
+    background-color: #2980b9;
+  }
+  
+  .alert-top {
+    position: fixed; /* Position absolute to overlay on top */
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(244, 67, 54, 0.9); /* Semi-transparent red background color */
+    color: white;
+    padding: 20px; /* Padding around content */
+    z-index: 9999; /* Ensure it's above other content */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add shadow for depth */
+  }
+  
+  .alert-content {
+    display: -webkit-inline-box;
+    align-items: center;
+  }
+  
+  .close {
+    cursor: pointer;
+    font-size: 1.5rem;
+  }
+  
+  .close:hover {
+    color: #ddd;
+  }
+  
+  .alert-message {
+    text-align: center;
+  }
+  
+  .alert-message h2 {
+    margin-bottom: 10px;
+  }
+  
+  .alert-message p {
+    margin-bottom: 15px;
+  }
+  
+  .alert-message input[type='text'],
+  .alert-message input[type='email'],
+  .alert-message input[type='password'] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+  }
+  
+  .alert-message input[type='text']:focus,
+  .alert-message input[type='email']:focus,
+  .alert-message input[type='password']:focus {
+    outline: none;
+    border-color: #3498db;
+  }
+  
+  .alert-message button {
+    background-color: #4caf50; /* Green background color */
+    color: white; /* White text color */
+    border: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px; /* Optional: Add margin for spacing */
+    transition: background-color 0.3s ease;
+  }
+  
+  .alert-message button:hover {
+    background-color: #45a049; /* Darker green color on hover */
+  }
+  
